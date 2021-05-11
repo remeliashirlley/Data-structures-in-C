@@ -27,7 +27,6 @@ typedef struct _stack
     StackNode *top;
 } Stack;
 
-
 ///////////////////////// Function prototypes ////////////////////////////////////
 
 // You should not change the prototypes of these functions
@@ -128,7 +127,6 @@ BTNode *createBTNode(int item)
 }
 
 //////////////////////////////////////////////////////////////////////////////////
-
 
 BTNode *createTree()
 {
