@@ -208,7 +208,6 @@ int isEmpty(Stack *s)
         return 0;
 }
 
-
 void removeAll(BSTNode **node)
 {
     if (*node != NULL)
