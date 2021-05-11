@@ -19,7 +19,6 @@ typedef struct _linkedlist{
     ListNode *head;
 } LinkedList;            // You should not change the definition of LinkedList
 
-
 ///////////////////////// function prototypes ////////////////////////////////////
 
 // This is for question 4. You should not change the prototype of this function
@@ -31,7 +30,6 @@ void removeAllItems(LinkedList *l);
 ListNode * findNode(LinkedList *ll, int index);
 int insertNode(LinkedList *ll, int index, int value);
 int removeNode(LinkedList *ll, int index);
-
 
 ///////////////////////////// main() /////////////////////////////////////////////
 
@@ -212,7 +210,6 @@ int insertNode(LinkedList *ll, int index, int value)
         ll->size++;
         return 0;
     }
-
 
     // Find the nodes before and at the target position
     // Create a new node and reconnect the links
