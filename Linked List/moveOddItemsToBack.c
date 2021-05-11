@@ -19,7 +19,6 @@ typedef struct _linkedlist
     ListNode *head;
 } LinkedList;            // You should not change the definition of LinkedList
 
-
 //////////////////////// function prototypes /////////////////////////////////////
 
 // You should not change the prototype of this function
@@ -125,7 +124,6 @@ void printList(LinkedList *ll){
     printf("\n");
 }
 
-
 void removeAllItems(LinkedList *ll)
 {
     ListNode *cur = ll->head;
@@ -139,7 +137,6 @@ void removeAllItems(LinkedList *ll)
     ll->head = NULL;
     ll->size = 0;
 }
-
 
 ListNode *findNode(LinkedList *ll, int index){
 
@@ -179,7 +176,6 @@ int insertNode(LinkedList *ll, int index, int value){
         ll->size++;
         return 0;
     }
-
 
     // Find the nodes before and at the target position
     // Create a new node and reconnect the links
