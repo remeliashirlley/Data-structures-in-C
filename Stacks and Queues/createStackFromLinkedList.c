@@ -107,7 +107,6 @@ int main()
     return 0;
 }
 
-
 //////////////////////////////////////////////////////////////////////////////////
 
 void createStackFromLinkedList(LinkedList *ll, Stack *s)
@@ -189,7 +188,6 @@ void removeAllItemsFromStack(Stack *s)
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
-
 void printList(LinkedList *ll){
 
     ListNode *cur;
@@ -206,7 +204,6 @@ void printList(LinkedList *ll){
     printf("\n");
 }
 
-
 void removeAllItems(LinkedList *ll)
 {
     ListNode *cur = ll->head;
@@ -220,7 +217,6 @@ void removeAllItems(LinkedList *ll)
     ll->head = NULL;
     ll->size = 0;
 }
-
 
 ListNode * findNode(LinkedList *ll, int index){
 
@@ -283,7 +279,6 @@ int insertNode(LinkedList *ll, int index, int value){
 
     return -1;
 }
-
 
 int removeNode(LinkedList *ll, int index){
 
