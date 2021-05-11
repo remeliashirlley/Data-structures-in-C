@@ -168,7 +168,6 @@ void push(Stack *stack, BSTNode * node)
     }
 }
 
-
 BSTNode * pop(Stack * s)
 {
     StackNode *temp, *t;
@@ -206,7 +205,6 @@ int isEmpty(Stack *s)
     else
         return 0;
 }
-
 
 void removeAll(BSTNode **node)
 {
