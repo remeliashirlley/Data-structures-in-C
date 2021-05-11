@@ -124,6 +124,7 @@ int isStackPairwiseConsecutive(Stack *s)
     else
         return 0;
 }
+
 //////////////////////////////////////////////////////////////////////////////////
 
 void push(Stack *s, int item){
@@ -222,7 +223,6 @@ int insertNode(LinkedList *ll, int index, int value){
 
     return -1;
 }
-
 
 int removeNode(LinkedList *ll, int index){
 
