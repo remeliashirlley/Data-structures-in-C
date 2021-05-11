@@ -110,7 +110,6 @@ int main()
     return 0;
 }
 
-
 //////////////////////////////////////////////////////////////////////////////////
 
 void createQueueFromLinkedList(LinkedList *ll, Queue *q)
@@ -179,7 +178,6 @@ void removeAllItemsFromQueue(Queue *q)
         dequeue(q);
 }
 
-
 void printList(LinkedList *ll){
 
     ListNode *cur;
@@ -196,7 +194,6 @@ void printList(LinkedList *ll){
     printf("\n");
 }
 
-
 void removeAllItems(LinkedList *ll)
 {
     ListNode *cur = ll->head;
@@ -210,7 +207,6 @@ void removeAllItems(LinkedList *ll)
     ll->head = NULL;
     ll->size = 0;
 }
-
 
 ListNode * findNode(LinkedList *ll, int index){
 
@@ -255,7 +251,6 @@ int insertNode(LinkedList *ll, int index, int value){
         return 0;
     }
 
-
     // Find the nodes before and at the target position
     // Create a new node and reconnect the links
     if ((pre = findNode(ll, index - 1)) != NULL){
@@ -273,7 +268,6 @@ int insertNode(LinkedList *ll, int index, int value){
 
     return -1;
 }
-
 
 int removeNode(LinkedList *ll, int index){
 
